@@ -1,0 +1,29 @@
+#header{
+    background-color: #10284e;
+    color: white;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    color: white;
+}
+
+.object-tools a:link, .object-tools a:visited {
+    background: #10284e;
+    color: var(--object-tools-fg);
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button {
+    background: #10284e;  
+}
+
+.button.default, input[type="submit"].default, .submit-row input.default {
+    background: #10284e;
+}
+
+div.breadcrumbs {
+    background: #30caa0;
+}
+.module h2, .module caption, .inline-group h2 {
+    background: #10284e;
+    ;
+}

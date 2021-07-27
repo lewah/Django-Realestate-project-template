@@ -1,0 +1,19 @@
+
+{% extends 'listings/base.html'%}
+{% load static %}
+
+{% block content %}
+
+Listings 
+<ul>
+    {% for item in listing %}
+    <li>
+        <a href="/books/{{listing.id}}/"> 
+            {{item.title}} 
+        </a>
+    </li>
+    {%endfor%}
+</ul>
+<img class="card-img-top" src="{% static 'img/homes/home-1.jpg' %}" alt="">
+
+{% endblock %}
