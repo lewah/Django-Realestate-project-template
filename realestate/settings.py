@@ -60,6 +60,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'realestate.urls'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 TEMPLATES = [
     {
